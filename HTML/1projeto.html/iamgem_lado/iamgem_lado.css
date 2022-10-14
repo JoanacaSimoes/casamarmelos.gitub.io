@@ -1,0 +1,52 @@
+
+
+body{
+  margin: 0;
+  font-family:  sans-serif;
+  padding: 0;
+
+}
+
+
+
+
+
+.section {
+  background-image: linear-gradient(
+        to right,
+        white 0%,
+        white 50%,
+        #DAA520 50%,
+        #DAA520 100% );
+
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  width: 87%;
+
+}
+
+.section img{
+  height: 150px;
+  margin-left: 200px;
+
+
+}
+
+.section h1{
+  color:  #555;
+} 
+
+.section p{
+
+  color:  #555;
+
+}
+
+.footer-core{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 10px;
+}
+
