@@ -8,7 +8,7 @@
 }
 
 
-
+/* Cabeçalho */
 .container1{
  
   max-width: 1110px;
@@ -38,11 +38,9 @@
 }
 
 
+/* Cabeçalho */
 
-
-
-
-/* Body */
+/* Contactos+img */
 
 
 #body{
@@ -171,7 +169,11 @@ textarea{
     color:#DAA520;
   }
 
+/* Contactos+img */
 
+
+
+/* Footer*/
 
 #footer{
   padding: 50px 30px 20px;
@@ -233,4 +235,4 @@ textarea{
 }
 
 
-  
+/* Footer*/

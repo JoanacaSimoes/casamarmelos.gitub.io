@@ -68,10 +68,9 @@ nav img{
 
 /* ### Discover  ### */
 /* conteúdo_blog de imagens  */
-#blog{
+#place{
   background-color: var(--light-grey);
 }
-
 
 
 .blog-item{
@@ -88,34 +87,18 @@ nav img{
 }
 
 
-.blog-item-top{
+.place-row-top{
   position: relative;
 }
 
 
 
-.blog-date{
-  position: absolute;
-  background-color: var(--green);
-  color: #fff;
-  padding: 0.5rem;
-  height: 38px;
-  min-width: 160px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  bottom: -19px;
-  left: 5%;
-}
-
-
-
-
-.blog-item-bottom{
+.place-item-bottom{
   padding: 2rem 1rem;
   
 }
 
-.blog-item-bottom span{
+.place-item-bottom span{
   text-transform: uppercase;
   color:#DAA520;
   opacity: 0.7;
@@ -125,8 +108,7 @@ nav img{
 }
 
 
-
-.blog-item-bottom a{
+.place-item-bottom a{
   margin: 1rem 0;
   font-size: 1.4rem;
   display: block;
@@ -141,13 +123,13 @@ nav img{
 
 
 
-.blog-item-bottom a:hover{
+.place-item-bottom a:hover{
   opacity: 0.8;
   color:#DAA520;
 }
 
 
-.py-4{
+.visit{
   padding: 1rem 0;
   margin-top: -5%;
 }
@@ -165,12 +147,12 @@ img{
   font-family: 'Courier New', Courier, monospace;
   
 }
-.lg-title{
+.l2-ti{
   font-size: 2rem;
   color: burlywood;
   font-family: "Times New Roman", Times, serif ;
 }
-.sm-title{
+.l1-ti{
   display: block;
   color:burlywood;
   font-weight: 300;
@@ -208,18 +190,19 @@ a{
   letter-spacing: 1px;
 }
 
-.blog-row{
+.place-row{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
-.blog-row{
+.place-row{
   grid-template-columns: repeat(3, 1fr);
 
 }
 
-
+/* ### Discover  ### */
+/* conteúdo_blog de imagens  */
 
 /* ### Footer  ### */
 /* Footer */

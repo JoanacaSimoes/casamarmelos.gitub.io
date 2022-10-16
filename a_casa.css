@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 
-
+/*Header  --*/
 
 .container{
  
@@ -36,8 +36,10 @@
 
 }
 
+/*Header  --*/
 
 
+/*Descrição  --*/
 
 
 .footer-cor{
@@ -60,13 +62,13 @@
 }
 
 
-.lg-title{
+.l2-title{
     font-size: 2rem;
     line-height: 1.8px;
     color:#DAA520;
     font-family: 'Courier New', Courier, monospace;
   }
-  .sm-title{
+  .l1-title{
     display: block;
     color:#DAA520;
     font-weight: 300;
@@ -79,12 +81,12 @@
     font-family: 'Courier New', Courier, monospace;
   }
 
-.py-4{
+.casa-1{
     padding: 4rem 0;
 }
 
 
-.title-wrap{
+.title-global{
     text-align: center;
     padding: 1.4rem 0;
     margin-bottom: 2rem;
@@ -94,12 +96,16 @@
 
 
 
-
 .container{
     max-width: 1320px;
     padding: 0 1rem;
     margin: 0 auto;
   }
+
+/*Descrição  --*/
+
+/*A Casa_Galeria  --*/
+
 
 .img-gallery{
     width: 80%;
@@ -134,7 +140,6 @@
     justify-content: center;
     z-index: 100;
 
-
 }
 
 .full-img img{
@@ -152,6 +157,7 @@
 
 }
 
+/*A Casa_Galeria  --*/
 
 .column {
     float: left;
@@ -165,10 +171,6 @@
     font-family: 'Courier New', Courier, monospace;
 
   }
-  
- 
-  
-  /* Clear floats after image containers */
 
   
   .row::after {
@@ -176,7 +178,6 @@
     clear: both;
     display: table;
   }
-
 
 
   .center {
@@ -198,9 +199,10 @@
 
 }
 
+/*Descrição  --*/
 
   
-
+/*Footer  --*/
 
 #footer{
   padding: 50px 30px 20px;
@@ -261,6 +263,7 @@
 
 }
 
+/*Footer  --*/
 
 
 
